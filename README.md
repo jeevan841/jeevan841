@@ -2,7 +2,7 @@
 - 👀 I’m interested in learning 
 - 🌱 I’m currently learning 
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ... jeevany841@gmail.com
+- 📫 How to reach me ... pallej841@gmail.com
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... love to explore 
 
