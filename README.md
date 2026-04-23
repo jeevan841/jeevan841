@@ -22,11 +22,50 @@
         Holopin
       </a>
     </p>
+
+
+<div align="center">
+<h3 align='center'><strong>Github Analytics </strong></h3>
+
+<br>
+
+<markdown-accessiblity-table data-catalyst="">
+  <table style="width: 100%; background-color: #1e1e1e; color: white; table-layout: fixed;">
+    <thead>
+	    <tr>
+		  <th colspan="2" align="center">
+			   <img src="./profile-3d-contrib/profile-night-green.svg" alt="Night Green Profile" style="width: 100%; object-fit: contain;" />
+		  </th>
+		</tr>
+      <tr>
+        <th style="padding: 20px; text-align: center;">
+          <a target="_blank" rel="noopener noreferrer nofollow" href="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark">
+            <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark" style= "width: 24.5em; height: 14em; object-fit: contain;" />
+          </a>
+        </th>
+        <th style="padding: 20px; text-align: center;">
+          <a target="_blank" rel="noopener noreferrer nofollow" href="https://github-readme-stats.vercel.app/api?username=jeevan841&show_icons=true&locale=en">
+            <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevan841&theme=github_dark" alt="GitHub Stats" style="width: 100%; height: 14em; object-fit: contain;" />
+          </a>
+        </th>
+      </tr>
+    </thead>
+	   <tr>
+        <td  colspan="2" align="center"> 
+		<br>
+	<img src="https://i.imgur.com/x1KbuCq.gif" width="500">
+		
+<!-- <picture>
+  		<source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="./github-contribution-grid-snake.svg" />
+</picture> -->
 <picture>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rupesh-klr/Rupesh-klr/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Rupesh-klr/Rupesh-klr/output/github-contribution-grid-snake.svg">
-<picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
+</picture>
+</div>
 <!---
 jeevan841/jeevan841 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
