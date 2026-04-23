@@ -22,6 +22,9 @@
         Holopin
       </a>
     </p>
+<picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
+<picture>
 <!---
 jeevan841/jeevan841 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
