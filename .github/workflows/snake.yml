@@ -1,15 +1,17 @@
 name: generate animation
 on:
   schedule:
-    - cron: "0 */24 * * *"  # Runs every 24 hours
-  workflow_dispatch:         # Manual trigger available
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
   push:
     branches:
-    - main                # Runs on master branch push
-    
+      - main
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write        
     steps:
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
@@ -18,9 +20,10 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      
+
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          token: ${{ secrets.GITHUB_TOKEN }}   
