@@ -54,10 +54,14 @@
         <td  colspan="2" align="center"> 
 		<br>
 	<img src="https://i.imgur.com/x1KbuCq.gif" width="500">
-		
-<!-- <picture>
-  		<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg"> <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg"> 
-</picture> -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" 
+    srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" 
+    srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" 
+    src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
+</picture>
 <picture>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
