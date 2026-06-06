@@ -58,16 +58,10 @@
         <td colspan="2" align="center">
           <br>
           <img src="https://i.imgur.com/x1KbuCq.gif" width="500">
-
-          <!-- FIX 1: Kept only ONE snake animation block, fixed dark/light sources -->
-          <picture>
-            <source media="(prefers-color-scheme: dark)"
-              srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg">
-            <source media="(prefers-color-scheme: light)"
-              srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-            <img alt="github contribution grid snake animation"
-              src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-          </picture>
+          <br>
+          <!-- FIX 1: Replaced <picture> with <img> — GitHub doesn't render <picture> inside <table> cells -->
+          <img alt="github contribution grid snake animation"
+            src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg">
         </td>
       </tr>
     </tbody>
