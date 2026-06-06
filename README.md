@@ -17,57 +17,66 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jeevan841&show_icons=true&locale=en&layout=compact" alt="jeevan841" /></p>
 
 <p>
-      Check out my Holopin Profile 👉 
-      <a href="https://holopin.io/@jeevan841" target="_blank">
-        Holopin
-      </a>
-    </p>
+  Check out my Holopin Profile 👉 
+  <a href="https://holopin.io/@jeevan841" target="_blank">Holopin</a>
+</p>
 
-
+<!-- FIX 2: Closed the div properly at the end of this section -->
 <div align="center">
-<h3 align='center'><strong>Github Analytics </strong></h3>
+<h3 align='center'><strong>Github Analytics</strong></h3>
 
 <br>
 
-<markdown-accessiblity-table data-catalyst="">
+<!-- FIX 5: Fixed typo "accessiblity" → "accessibility" -->
+<markdown-accessibility-table data-catalyst="">
   <table style="width: 100%; background-color: #1e1e1e; color: white; table-layout: fixed;">
+    <!-- FIX 3: Moved 3D profile SVG row into thead correctly, stats cards moved to tbody with td tags -->
     <thead>
-	    <tr>
-		  <th colspan="2" align="center">
-			   <img src="./profile-3d-contrib/profile-night-green.svg" alt="Night Green Profile" style="width: 100%; object-fit: contain;" />
-		  </th>
-		</tr>
       <tr>
-        <th style="padding: 20px; text-align: center;">
-          <a target="_blank" rel="noopener noreferrer nofollow" href="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark">
-            <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark" style= "width: 24.5em; height: 14em; object-fit: contain;" />
-          </a>
-        </th>
-        <th style="padding: 20px; text-align: center;">
-          <a target="_blank" rel="noopener noreferrer nofollow" href="https://github-readme-stats.vercel.app/api?username=jeevan841&show_icons=true&locale=en">
-            <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevan841&theme=github_dark" alt="GitHub Stats" style="width: 100%; height: 14em; object-fit: contain;" />
-          </a>
+        <th colspan="2" align="center">
+          <img src="./profile-3d-contrib/profile-night-green.svg" alt="Night Green Profile" style="width: 100%; object-fit: contain;" />
         </th>
       </tr>
     </thead>
-	   <tr>
-        <td  colspan="2" align="center"> 
-		<br>
-	<img src="https://i.imgur.com/x1KbuCq.gif" width="500">
-<picture>
-  <source media="(prefers-color-scheme: dark)" 
-    srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" 
-    srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" 
-    src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-</picture>
-<picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
-</picture>
+    <tbody>
+      <tr>
+        <!-- FIX 3: Changed th → td for content rows -->
+        <td style="padding: 20px; text-align: center;">
+          <!-- FIX 4: Changed http:// → https:// -->
+          <a target="_blank" rel="noopener noreferrer nofollow" href="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark">
+            <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark" style="width: 24.5em; height: 14em; object-fit: contain;" />
+          </a>
+        </td>
+        <td style="padding: 20px; text-align: center;">
+          <a target="_blank" rel="noopener noreferrer nofollow" href="https://github-readme-stats.vercel.app/api?username=jeevan841&show_icons=true&locale=en">
+            <!-- FIX 4: Changed http:// → https:// -->
+            <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevan841&theme=github_dark" alt="GitHub Stats" style="width: 100%; height: 14em; object-fit: contain;" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <br>
+          <img src="https://i.imgur.com/x1KbuCq.gif" width="500">
+
+          <!-- FIX 1: Kept only ONE snake animation block, fixed dark/light sources -->
+          <picture>
+            <source media="(prefers-color-scheme: dark)"
+              srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg">
+            <source media="(prefers-color-scheme: light)"
+              srcset="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
+            <img alt="github contribution grid snake animation"
+              src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake.svg">
+          </picture>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</markdown-accessibility-table>
+
 </div>
+<!-- FIX 2: Closing div added here -->
+
 <!---
 jeevan841/jeevan841 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
