@@ -21,16 +21,13 @@
   <a href="https://holopin.io/@jeevan841" target="_blank">Holopin</a>
 </p>
 
-<!-- FIX 2: Closed the div properly at the end of this section -->
 <div align="center">
 <h3 align='center'><strong>Github Analytics</strong></h3>
 
 <br>
 
-<!-- FIX 5: Fixed typo "accessiblity" → "accessibility" -->
 <markdown-accessibility-table data-catalyst="">
   <table style="width: 100%; background-color: #1e1e1e; color: white; table-layout: fixed;">
-    <!-- FIX 3: Moved 3D profile SVG row into thead correctly, stats cards moved to tbody with td tags -->
     <thead>
       <tr>
         <th colspan="2" align="center">
@@ -40,16 +37,13 @@
     </thead>
     <tbody>
       <tr>
-        <!-- FIX 3: Changed th → td for content rows -->
         <td style="padding: 20px; text-align: center;">
-          <!-- FIX 4: Changed http:// → https:// -->
           <a target="_blank" rel="noopener noreferrer nofollow" href="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark">
             <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevan841&theme=github_dark" style="width: 24.5em; height: 14em; object-fit: contain;" />
           </a>
         </td>
         <td style="padding: 20px; text-align: center;">
           <a target="_blank" rel="noopener noreferrer nofollow" href="https://github-readme-stats.vercel.app/api?username=jeevan841&show_icons=true&locale=en">
-            <!-- FIX 4: Changed http:// → https:// -->
             <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevan841&theme=github_dark" alt="GitHub Stats" style="width: 100%; height: 14em; object-fit: contain;" />
           </a>
         </td>
@@ -59,7 +53,6 @@
           <br>
           <img src="https://i.imgur.com/x1KbuCq.gif" width="500">
           <br>
-          <!-- FIX 1: Replaced <picture> with <img> — GitHub doesn't render <picture> inside <table> cells -->
           <img alt="github contribution grid snake animation"
             src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg">
         </td>
@@ -69,7 +62,6 @@
 </markdown-accessibility-table>
 
 </div>
-<!-- FIX 2: Closing div added here -->
 
 <!---
 jeevan841/jeevan841 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
