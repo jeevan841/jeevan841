@@ -51,8 +51,6 @@
           <br>
           <img src="https://i.imgur.com/x1KbuCq.gif" width="500">
           <br>
-          <img alt="github contribution grid snake animation"
-            src="https://raw.githubusercontent.com/jeevan841/jeevan841/output/github-contribution-grid-snake-dark.svg">
         </td>
       </tr>
     </tbody>
