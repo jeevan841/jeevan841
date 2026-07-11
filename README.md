@@ -49,8 +49,6 @@
       <tr>
         <td colspan="2" align="center">
           <br>
-          <img src="https://i.imgur.com/x1KbuCq.gif" width="500">
-          <br>
         </td>
       </tr>
     </tbody>
