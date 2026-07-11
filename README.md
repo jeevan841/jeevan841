@@ -33,6 +33,11 @@
         </th>
       </tr>
     </thead>
+    <tr>
+        <td colspan="2" style="padding: 20px; text-align: center;">
+          <img src="./dist/commit-wave.svg" alt="Commit rhythm — rolling average & FFT" style="width: 100%; object-fit: contain;" />
+        </td>
+      </tr>
     <tbody>
       <tr>
         <td style="padding: 20px; text-align: center;">
