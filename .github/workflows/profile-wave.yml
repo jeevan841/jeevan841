@@ -1,7 +1,7 @@
 name: generate-commit-wave
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "32 0 * * *"
   workflow_dispatch:
 
 jobs:
